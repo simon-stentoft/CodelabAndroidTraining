@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.d("MainActivity", "Happy Birthday, Andreas");
+
         mShowCount = (TextView) findViewById(R.id.showCount);
     }
 
